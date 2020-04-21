@@ -1,0 +1,23 @@
+.navbar-custom {
+    background-color: #1565c0;
+}
+
+.toggle-nav {
+    margin-right: 15px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border-radius: 100%;
+    width: 29%;
+}
+
+.toggle-nav:hover {
+    background-color: #0f59af;
+}
+
+@media screen and (max-width: 598) {
+    .toggle-nav {
+        margin-right: 10px;
+        border-radius: 100%;
+        width: 29%;
+    }
+  }
